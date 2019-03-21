@@ -23,7 +23,7 @@ The aim of this competition is to develop models that identify and flag insincer
   * Data needed to be cleaned before being processed by the model.
   * Class Imbalance in training set (Sincere: ~95% , Insincere ~5%). 
   * English only word embeddings
-    * Quite a few non- English expressions meant extensive data cleaning is needed
+    * Quite a few non- English expressions
 
 ## Data
 Data fields:
@@ -48,7 +48,28 @@ Data fields:
   * [wiki-news-300d-1M](https://fasttext.cc/docs/en/english-vectors.html)
 
 
-## Approach
+## Initial Approach
+### Data Cleaning
+Lowercasing
+Replacement using self defined dictionaries to map replacements
+  * Contractions,
+  * Unknown characters
+  * Commonly misspelled word
+  * Lemmatisation
+Punctuation removal
+Removal of common and rare words
+
+### Data Processing
+GLOVE, WikiFastText and Paragram English word embeddings were used to map words to a dense vector space. 
+
+### Model Testing
+Try a variety ofNeural Net models, Logistic Regression and ADA Boost with abnd without the word embeddings.
+
+### Model Selection
+Based on performance and score select a final model.
+
+*To do:* 
+- [] Try back propogation for unknown characters
 
 ## Result
-Scoring is evaluaded usin the  [F1 Score](https://en.wikipedia.org/wiki/F1_score) between the predicted and the observed targets.
+Scoring is evaluated usin the  [F1 Score](https://en.wikipedia.org/wiki/F1_score) between the predicted and the observed targets.
