@@ -1,8 +1,8 @@
 # Kaggle Quora Insincere Questions
 This repo contains my approach to [Kaggle Insincere Questions Classification](https://www.kaggle.com/c/quora-insincere-questions-classification).
 
-**Description:** 
-Quora is an online question and answer platform with content created from its community of users. To enable a safe community and uphod their policy of "Be Nice, Be Respectful", Quora needs to eliminate "insincere" questions -- those founded upon false premises, or that intend to make a statement rather than look for helpful answers, on their platform. These types of questions include questions that are: disparaging or inflammatory, asked purely for shock value, have a non-neutral tone and are not grounded in reality.
+**Description:**    
+  Quora is an online question and answer platform with content created from its community of users. To enable a safe community and uphod their policy of "Be Nice, Be Respectful", Quora needs to eliminate "insincere" questions -- those founded upon false premises, or that intend to make a statement rather than look for helpful answers, on their platform. These types of questions include questions that are: disparaging or inflammatory, asked purely for shock value, have a non-neutral tone and are not grounded in reality.
 
 * **Examples of Sincere questions:**
   * How did Quebec nationalists see their province as a nation in the 1960s?  
