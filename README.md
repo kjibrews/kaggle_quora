@@ -2,17 +2,18 @@
 This repo contains my approach to [Kaggle Insincere Questions Classification](https://www.kaggle.com/c/quora-insincere-questions-classification).
 
 **Description:** 
-Quora is an online question and answer platform with content created from its community of users. To enable a safe community and uphod their policy of "Be Nice, Be Respectful", Quora needs to eliminate "insincere" questions -- those founded upon false premises, or that intend to make a statement rather than look for helpful answers, on their platform. These types of questions include questions that are: disparaging or inflammatory, asked purely for shock value, have a non-neutral tone and are not grounded in reality.    
-**Examples of Sincere questions:**
-* How did Quebec nationalists see their province as a nation in the 1960s?
-* Do you have an adopted dog, how would you encourage people to adopt and not shop?
-**Examples of Insincere questions:**
-* Which babies are more sweeter to their parents? Dark skin babies or light skin babies?
-* If blacks support school choice and mandatory sentencing for criminals why don't they vote Republican?
+Quora is an online question and answer platform with content created from its community of users. To enable a safe community and uphod their policy of "Be Nice, Be Respectful", Quora needs to eliminate "insincere" questions -- those founded upon false premises, or that intend to make a statement rather than look for helpful answers, on their platform. These types of questions include questions that are: disparaging or inflammatory, asked purely for shock value, have a non-neutral tone and are not grounded in reality.
+
+* **Examples of Sincere questions:**
+  * How did Quebec nationalists see their province as a nation in the 1960s?  
+  * Do you have an adopted dog, how would you encourage people to adopt and not shop?
+* **Examples of Insincere questions:**
+  * Which babies are more sweeter to their parents? Dark skin babiesor light skin babies?  
+  * If blacks support school choice and mandatory sentencing for criminals why don't they vote Republican?  
 
 The aim of this competition is to develop models that identify and flag insincere questions. 
 
-**Limitations of competition:**
+* **Limitations of competition:**
 * Kernels only competition
   * No custom packages
   * RAM Limitations 
