@@ -69,7 +69,7 @@ Try a variety ofNeural Net models, Logistic Regression and ADA Boost with abnd w
 Based on performance and score select a final model.
 
 *To do:* 
-- [] Try back propogation for unknown characters
+- [ ] Try back propogation for unknown characters
 
 ## Result
 Scoring is evaluated usin the  [F1 Score](https://en.wikipedia.org/wiki/F1_score) between the predicted and the observed targets.
