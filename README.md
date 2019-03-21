@@ -14,16 +14,16 @@ Quora is an online question and answer platform with content created from its co
 The aim of this competition is to develop models that identify and flag insincere questions. 
 
 * **Limitations of competition:**
-* Kernels only competition
-  * No custom packages
-  * RAM Limitations 
-  * RAM limitations  (CPU : 17 GB, GPU: 14 GB), 
-  * if using GPU no custom packages were allowed 
-  * Runtime limitations (CPU: 6 hours, GPU: 2 hours)
-* Data needed to be cleaned before being processed by the model.
-* Class Imbalance in training set (Sincere: ~95% , Insincere ~5%). 
-* English only word embeddings
-  * Quite a few non- English expressions meant extensive data cleaning is needed
+  * Kernels only competition
+    * No custom packages
+    * RAM Limitations 
+    * RAM limitations  (CPU : 17 GB, GPU: 14 GB), 
+    * if using GPU no custom packages were allowed 
+    * Runtime limitations (CPU: 6 hours, GPU: 2 hours)
+  * Data needed to be cleaned before being processed by the model.
+  * Class Imbalance in training set (Sincere: ~95% , Insincere ~5%). 
+  * English only word embeddings
+    * Quite a few non- English expressions meant extensive data cleaning is needed
 
 ## Data
 Data fields:
@@ -32,16 +32,20 @@ Data fields:
 * target - a question labeled "insincere" has a value of 1, otherwise 0
 
 ## File descriptions:
-* train.csv - the training set
-...The training data includes the question that was asked, and whether it was identified as insincere (target = 1). The ground-truth labels contain some amount of noise: they are not guaranteed to be perfect. It was noted also that the distribution of questions in the dataset should not be taken to be representative of the distribution of questions asked on Quora. This is, in part, because of the combination of sampling procedures and sanitization measures that have been applied to the final dataset.
+* train.csv - the training set  
+    - The training data includes the question that was asked, and whether it was identified as insincere (target = 1).
+    - The ground-truth labels contain some amount of noise: they are not guaranteed to be perfect. 
+    - It was noted also that the distribution of questions in the dataset should not be taken to be representative of the distribution 
+    of questions asked on Quora. This is, in part, because of the combination of sampling procedures and sanitization measures that have
+    been applied to the final dataset.
 * test.csv - the test set
 * sample_submission.csv - A sample submission in the correct format
-* embeddings
- External data sources are not allowed for this competition.Four word embeddings were provided that can be used in models.
- * [GoogleNews-vectors-negative300](https://code.google.com/archive/p/word2vec/)
- * [glove.840B.300d](https://nlp.stanford.edu/projects/glove/)
- * [paragram_300_sl999](https://cogcomp.org/page/resource_view/106)
- * [wiki-news-300d-1M](https://fasttext.cc/docs/en/english-vectors.html)
+* embeddings   
+   External data sources are not allowed for this competition.Four word embeddings were provided that can be used in models.
+  * [GoogleNews-vectors-negative300](https://code.google.com/archive/p/word2vec/)
+  * [glove.840B.300d](https://nlp.stanford.edu/projects/glove/)
+  * [paragram_300_sl999](https://cogcomp.org/page/resource_view/106)
+  * [wiki-news-300d-1M](https://fasttext.cc/docs/en/english-vectors.html)
 
 
 ## Approach
